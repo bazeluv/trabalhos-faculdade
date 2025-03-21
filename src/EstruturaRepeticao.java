@@ -67,6 +67,24 @@ public class EstruturaRepeticao {
         resp = leitor.next();
     } while (resp.equals("S"));
     System.out.println("a soma de todos os valores é: " + soma);
+
+
+    // Repetição com variavel de controle
+
+    for (int cc5 = 0; cc5<=3; cc5++) {               // cc5 = 0, enquanto cc5 for menor/igual a 3, cc++
+        
+        System.out.println("cambalhota cc5 " + cc5);
+    }
+
+
+    // Laços aninhados
+
+    for (int n1 = 1; n1<=3; n1++) {
+        for (int n2 = 0; n2<=2; n2+=2) {
+            System.out.print(n1+"\n");
+            System.out.println(n2+"\n");
+        }
+    }
    
     }
 }
