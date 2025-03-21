@@ -54,7 +54,7 @@ public class EstruturasCondicionais {
         String tipo;
         switch (pernas) {
             case 1:
-                tipo = "Saci";
+                tipo = "aleijado";
                 break;
 
             case 2:
